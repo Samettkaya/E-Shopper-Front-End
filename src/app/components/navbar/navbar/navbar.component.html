@@ -1,29 +1,33 @@
 <div class="container">
     <header
-      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between  mb-4 ">
-      <a href="#" class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
-        E-Shopper
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between  pt-3 pb-2 ">
+      <a href="#" class="d-flex align-items-center col-md-2  mb-md-0 Home-Page  text-decoration-none text-navbar">
+        <i class="shopping bag icon Home-Page-icon"></i> E-Shopper
       </a>
   
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <ul class=" p-0 col-md-5  mb-2 justify-content-center mb-md-0">
         <form class="d-flex">
-          <input class="form-control " type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control btn-input" type="search" placeholder="Aradığınız ürün, kategori veya marka yazınız" aria-label="Search">
+          <button class="btn btn-search" type="submit"><i style="color: white;" class="search icon"></i></button>
         </form>
       </ul>
   
-      <div class="col-md-4  text-end">
-        <button type="button" class="btn me-2 fs-6">
-          <fa-icon class="faicon" [icon]="faHeart"></fa-icon> <br> Favoriler
+      <div class="col-md-3  text-end ">
+        <button type="button" class="btn text-navbar ">
+          <i class="heart outline icon faicon"></i> <br> Favoriler
         </button>
-        <button type="button" class="btn  me-2">
-          <fa-icon  class="faicon" [icon]="faUser"></fa-icon> <br> Login
+        <button type="button" class="btn text-navbar ">
+          <i class="user outline icon faicon"></i><br> Login
         </button>
-        <button type="button" class="btn  me-2">
-          <fa-icon  class="faicon" [icon]="faShoppingBasket"></fa-icon> <br>  Sepetim
+        <button type="button" class="btn text-navbar position-relative">
+          <i class="shopping basket icon faicon"></i>  <br>  Sepetim
+          <span class="position-absolute top-0 p-1 translate-middle badge rounded-pill bg-danger">
+            10
+            
+          </span>
         </button>
-  
-  
       </div>
     </header>
   </div>
+
+  

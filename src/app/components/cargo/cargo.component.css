@@ -1,0 +1,18 @@
+
+
+.cargo-teample{
+    background-color: #022548;
+    height: 0px;
+}
+
+.cargo-header{
+    background-color: #022548;
+    padding: 25px 10px;
+    color: white;
+}
+
+.cargo-header i{
+   font-size: 25px;
+   text-align: center;
+   margin: 0 20px;
+}

@@ -1,15 +1,13 @@
-
 import { Component, OnInit } from '@angular/core';
 import { Brand } from 'src/app/models/brand';
-
 import { BrandService } from 'src/app/services/brand.service';
 
 @Component({
-  selector: 'app-brand',
-  templateUrl: './brand.component.html',
-  styleUrls: ['./brand.component.css']
+  selector: 'app-brand-slider',
+  templateUrl: './brand-slider.component.html',
+  styleUrls: ['./brand-slider.component.css']
 })
-export class BrandComponent implements OnInit {
+export class BrandSliderComponent implements OnInit {
 
   brands:Brand[]=[]
   
@@ -25,4 +23,5 @@ export class BrandComponent implements OnInit {
 
     });
   }
+
 }

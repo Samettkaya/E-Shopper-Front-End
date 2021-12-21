@@ -1,0 +1,59 @@
+.faicon{
+ background-color: none;
+ color: #1E3D5C;
+}
+
+.text-navbar{
+    letter-spacing: 0.18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1E3D5C !important;
+    text-align: center;
+}
+
+.btn-search{
+    background-color: #1E3D5C;
+    border-radius: 0px;
+    
+}
+
+.btn-input{
+    border: 1px solid #1E3D5C !important   ;
+    border-radius: 0px !important;
+   
+ 
+}
+.btn-input:focus{
+    
+    border:1px solid #1e3d5c9a !important;
+    transition: border 0.8s;
+}
+
+
+input,button:focus {
+    box-shadow:none !important;
+    
+}
+
+.translate-middle {
+    transform: translate(-120%,-40%)!important;
+}
+
+.text-navbar span{
+   
+    color: #ffffff !important;
+
+}
+.rounded-pill {
+    border-radius: 50rem !important;
+}
+
+.Home-Page-icon{
+    
+    transform: translate(0%,-18%)!important;
+    color: #ED4634;
+}
+
+.Home-Page:hover{
+    color: #ED4634 !important;
+    transition: color 0.5s;
+}

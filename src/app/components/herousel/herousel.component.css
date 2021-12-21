@@ -1,0 +1,117 @@
+.herousel{
+    padding: 0px 0;
+    
+}
+
+.slider-wrap{
+    position: relative;
+    overflow: hidden;
+    height:  260px;
+}
+
+.slider-main{
+     position: absolute;
+     width: 100%;
+}
+
+.item{
+    display: inline-block;
+    width: 100%;
+    height: 260px;
+    position: relative;
+
+
+}
+
+.text{
+    position:  absolute;
+    width: 100%;
+    height: 260px;
+   
+
+}
+
+.prev{
+    position: absolute;
+    right:200px;
+    top:80%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    
+}
+.next{
+    position: absolute;
+    right:150px;
+    top:80%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+
+}
+.next a i ,.prev a i{
+    color: #022548 !important;
+}
+
+.next:hover{
+    right:145px;
+    transition: right 0.5 ease-in-out!;
+}
+.prev:hover{
+    right:205px;
+    transition: right 0.5 ease-in-out!;
+}
+.herousel-template{
+    background-color: #D1623D;
+    color:white;
+    height: 260px;
+    padding: 50px 0px 25px 50px
+
+   
+}
+
+.herousel-template h3{
+   
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px; 
+}
+.herousel-template p{
+   
+    font-size:12px;
+    margin-bottom: 40px;
+}
+
+.herousel-template-button a{
+    font-weight: bold !important;
+    background-color: white !important;
+    color:#022548 !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+}
+
+.herousel-template-button a:hover{
+    color:#D1623D !important;
+    transition: color 0.5s ease;
+
+    
+
+
+}
+
+.herousel-img{
+    background-color: #FFAA79;
+    height: 260px;
+    padding: 0px;
+}
+
+
+
+.button-area .container{
+    background-color: #F6F6F6;
+    height: 50px;
+}
+

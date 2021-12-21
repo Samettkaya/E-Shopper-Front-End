@@ -1,0 +1,18 @@
+<section class="brand-slider">
+    <h1>markalar</h1>
+    <div class="container-fluid">
+         <div class="slider-wrap d-flex justify-content-evenly">
+             <div class="slider-main ">
+                 <div class="item" *ngFor="let brand of brands" zclass="item">
+                     <div class="text">{{brand.name}}</div>
+                 </div>
+                 
+             </div>
+              <div class="button-area">
+            <button type="button" class="prev" appPrevProduct><i class="arrow left icon"></i></button>
+            <button type="button" class="next" appNextProduct><i class="arrow right icon"></i></button>
+        </div>
+         </div>
+        
+    </div>
+</section>

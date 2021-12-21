@@ -1,0 +1,32 @@
+.category-navbar{
+    font-size: 14px ;
+    color: #022548;
+    letter-spacing: 0.18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 0px !important;
+    border-bottom: 2px solid #ffffff;
+    text-transform: uppercase;
+}
+
+.category-navbar:hover{
+    border-bottom: 2px solid #ED4634;
+    color: #ED4634;
+   
+
+}
+
+.opportunity{
+    font-size: 14px;
+    color: #ED4634 !important;
+    letter-spacing: 0.18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 0px !important;
+}
+
+.opportunity:hover{
+    color: #022548 !important;
+    border-bottom: 2px solid #022548;
+}
+.category-navbar:focus-within{
+    color:#ED4634 !important ;
+}
